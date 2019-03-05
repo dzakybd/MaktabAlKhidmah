@@ -1,0 +1,192 @@
+Maktab Al Khidmah
+
+Pengguna:
+0- Admin (A)
+1- Pengurus Daerah (PD)
+2- Koordinator Rombongan (KR)
+3- Jamaah (J)
+4- Pengurus Maktab (PM)
+5- Pengurus Dapur Umum (PDU)
+6- Pengurus Parkir (PP)
+
+Fitur Admin (A):
+- Dashboard : 2 Pengurus belum diaktivasi, 2 KR belum diaktivasi, 2 Rombongan datanya belum lengkap, 2 Rombongan belum dapat maktab, 2 Rombongan belum dapat tempat parkir, total seluruh rombongan, total seluruh jamaah, total akun PD/PDU/PM/PP, total maktab/tempat parkir/jam makan
+- Melihat list akun KR, PD, PDU, PM, PP (lvl 1 list akun)
+- Melihat & Mengaktivasi akun KR, PD, PDU, PM, PP (Aktivasi, Deaktivasi, Hapus) (lvl 2 data akun)
+Akses sama kaya PD tp seluruh rombongan, KR, PP, PDU, PM
+- Melihat status kelengkapan data, alokasi maktab, alokasi parkir, kategori, seluruh rombongan (lvl 1 list rombongan)
+- Mengunggah/Mengedit data rombonganya (lvl 2 data rombongan edit)
+- Minta alokasi maktab (data terkait maktab lengkap) (lvl 3)
+- Minta alokasi tempat parkir rombonganya (data terkait kendaraan lengkap) (lvl 3)
+- Melihat data jamaah di seluruh rombongannya (lvl 3 list akun)
+- Menambah/Mengedit/Menghapus data jamaah (lvl 4 data akun edit)
+- Melihat detail kesediaan nasi bungkus rombonganya (lvl 4 data maktab - view)
+- Melihat list PDU (lvl 5 list akun)
+- Melihat detail maktab yang teralokasi rombongannya (lvl 4 data maktab - view)
+- Melihat list PM  (lvl 5 list akun)
+- Melihat detail lokasi parkir yang teralokasi rombongannya (lvl 4 data parkir - view)
+- Melihat list PP (lvl 5 list akun)
+- Melihat list maktab dan status terisi 2/10, kategori (lvl 1 list maktab)
+- Menambah/Mengedit/Menghapus data maktab2 (lvl 2 data maktab edit)
+- Melihat/Menghapus/Menambah list rombongan status jumlah (lvl 3 list penghuni)
+- Melihat detail data rombongan yang menempati maktab (lvl 4 data rombongan view)
+
+
+
+Fitur Pengurus Daerah (PD):
+- Dashboard : 2 KR belum diaktivasi, 2 Rombongan datanya belum lengkap, 2 Rombongan belum dapat maktab, 2 Rombongan belum dapat tempat parkir, total seluruh rombongan/rombongan daerah anda, total seluruh jamaah/jamaah daerah anda
+- Melihat status kelengkapan data, alokasi maktab, alokasi parkir, kategori, seluruh rombongannya (lvl 1 list rombongan)
+- Melihat detail data seluruh rombongannya (lvl 2 data rombongan view)
+- Melihat akun KR (lvl 3 data akun view)
+- Melihat data jamaah di seluruh rombongannya (lvl 3 list akun)
+- Melihat data jamaah (lvl 4 data akun view)
+- Melihat detail kesediaan nasi bungkus selutuh rombonganya (lvl 3 data maktab - view)
+- Melihat list PDU (lvl 4 list akun)
+- Melihat detail maktab yang teralokasi seluruh rombongannya (lvl 3 data maktab - view)
+- Melihat list PM  (lvl 4 list akun)
+- Melihat detail lokasi parkir yang teralokasi seluruh rombongannya (lvl 3 data parkir - view)
+- Melihat list PP (lvl 4 list akun)
+- Melihat list KR sedaerah/PD sedaerah/PDU/PM/PP (lvl 1 list akun)
+- Mengedit & Mengaktivasi akun KR (Aktivasi, Deaktivasi, Hapus) (lvl 2 data akun edit)
+- Melihat akun PD sedaerah/PDU/PM/PP (lvl 2 data akun view)
+- Mengubah akun PD (lvl 1 data akun edit)
+- Chat admin untuk aktivasi (lvl 2)
+
+Fitur Koordinator Rombongan (KR):
+- Dashboard : data rombongan terkait maktab/kendaeaan belum lengkap, rombongan belum dapat maktab/tempat parkir/makan(msh blm diambil), total seluruh rombongan/rombongan daerah anda, total seluruh jamaah/jamaah daerah anda
+- Mengunggah/Mengedit data rombonganya (lvl 1 data rombongan edit)
+- Minta alokasi maktab (data terkait maktab lengkap) (lvl 2)
+- Minta alokasi tempat parkir rombonganya (data terkait kendaraan lengkap) (lvl 2)
+- Melihat data jamaah di seluruh rombongannya (lvl 2 list akun)
+- Menambah/Mengedit/Menghapus data jamaah (lvl 3 data akun edit)
+- Melihat detail kesediaan nasi bungkus rombonganya (lvl 3 data maktab - view)
+- Melihat list PDU (lvl 4 list akun)
+- Melihat detail maktab yang teralokasi rombongannya (lvl 3 data maktab - view)
+- Melihat list PM  (lvl 4 list akun)
+- Melihat detail lokasi parkir yang teralokasi rombongannya (lvl 3 data parkir - view)
+- Melihat list PP (lvl 4 list akun)
+- Melihat list KR sedaerah/PD sedaerah/PDU/PM/PP (lvl 1 list akun)
+- Melihat akun KR sedaerah/PD sedaerah/PDU/PM/PP (lvl 2 data akun view)
+- Mengubah akun KR (lvl 1 data akun edit)
+- Chat PD untuk aktivasi (lvl 2)
+
+Fitur Jamaah (JM):
+- Dashboard : data rombongan terkait maktab/kendaraan belum lengkap, rombongan belum dapat maktab/tempat parkir/makan(msh blm diambil), total seluruh rombongan/rombongan daerah anda, total seluruh jamaah/jamaah daerah anda
+- Melihat detail data rombongannya (lvl 1 data rombongan view)
+- Melihat akun KR (lvl 2 data akun view)
+- Melihat data jamaah di rombongannya (lvl 2 list akun)
+- Melihat data jamaah (lvl 3 data akun view)
+- Melihat detail kesediaan nasi bungkus rombonganya (lvl 2 data maktab - view)
+- Melihat detail maktab yang teralokasi rombongannya (lvl 2 data maktab - view)
+- Melihat detail lokasi parkir yang teralokasi rombongannya (lvl 2 data parkir - view)
+- Melihat list KR sedaerah/PD sedaerah(lvl 1 list akun)
+- Melihat akun KR sedaerah/PD sedaerah(lvl 2 data akun view)
+
+Fitur Pengurus Maktab (PM):
+- Dashboard : 2 rombongan blm dapat maktab, 3/10 maktab blm penuh, total seluruh rombongan, total seluruh jamaah, total maktab, total rombongan per kategori
+- Melihat list maktab dan status terisi 2/10, kategori (lvl 1 list maktab)
+- Menambah data maktab2 (lvl 2 data maktab edit)
+- Melihat detail data maktab2, dan edit ato hapus (lvl 2 data maktab edit)
+- Melihat/Menghapus/Menambah list rombongan status jumlah (lvl 3 list penghuni)
+- Melihat detail data rombongan yang menempati maktab (lvl 4 data rombongan view)
+- Melihat list KR/PD/PDU/PM/PP (lvl 1 list akun)
+- Melihat akun KR/PD/PDU/PM/PP (lvl 2 data akun view)
+- Mengubah akun PM (lvl 1 data akun edit)
+- Chat Admin untuk aktivasi (lvl 2)
+
+Fitur Pengurus Dapur Umum (PDU):
+- Dashboard :  total seluruh rombongan, total seluruh jamaah, total rombongan per kategori
+- Melihat list waktu makan dan status 2/10 jamaah sudah mengambil makan siang, kategori (lvl 1 list waktu makan)
+- Menambah data waktu makan (lvl 2 data waktu makan edit)
+- Melihat detail data waktu makan, dan edit, ato hapus (lvl 2 data waktu makan edit)
+- Melihat & mengedit list rombongan dengan jumlah jamaah, kategori & checklist sudah mengambil belum (lvl 3 list pengambilan makan)
+- Melihat detail data rombongan yang mengambil makanan (lvl 4 data rombongan view)
+- Melihat list KR/PD/PDU/PM/PP (lvl 1 list akun)
+- Melihat akun KR/PD/PDU/PM/PP (lvl 2 data akun view)
+- Mengubah akun PDU (lvl 1 data akun edit)
+- Chat Admin untuk aktivasi (lvl 2)
+
+Fitur Pengurus Parkir (PP):
+- Dashboard :  total seluruh rombongan, total seluruh jamaah, total rombongan per kategori, 3/4 tempat parkir belum penuh
+- Melihat list tempat parkir dan status penuh/tidak, dan jumlah kendaraan, kategori (lvl 1 list tempat parkir)
+- Menambah data tempat parkir (lvl 2 data tempat parkir edit)
+- Melihat detail data tempat parkir, dan edit, ato hapus, diisi kendaraan jenis apa dan brp, dan bisa ubah status (lvl 2 data tempat parkir edit)
+- Melihat/Menghapus/Menambah list rombongan di tempat parkir itu (lvl 3 list yang parkir)
+- Melihat detail data rombongan yang menempati parkiran (lvl 3 data rombongan view)
+- Melihat list KR/PD/PDU/PM(lvl 1 list akun)
+- Melihat akun KR/PD/PDU/PM(lvl 2 data akun view)
+- Mengubah akun PP (lvl 1 data akun edit)
+- Chat Admin untuk aktivasi (lvl 2)
+
+Data model:
+Akun:
+- AkunID (number)
+- NamaAkun (varchar)
+- NoHP (varchar)
+- Peran (number)
+- DaerahID (null selain PD, KR, J)
+- RombonganID (null selain J)
+- Aktivasi (always 1 selain PD, PDU, PM, PP)
+- latitude
+- longitude
+- keterangan (untuk PDU, PM, PP / tugas spesifik)
+
+
+Rombongan:
+- RombonganID (number)
+- NamaRombongan (varchar) generated
+- Koor (AkunID)
+- NamaKendaraan (varchar)
+- JenisKendaraan (Bis Besar/Kecil, Mobil pribadi, Elf)
+- NoKendaraan (varchar)
+- JumlahJamaah (number)
+- WaktuBerangkat (timestamp)
+- WaktuTiba (timestamp)
+- Kategori (VVIP, VIP, Santri, Umum)
+- AlokasiMaktab (MaktabID)
+- AlokasiParkir (ParkirID)
+
+Maktab:
+- MaktabID
+- NamaPemilik
+- NoHP
+- Alamat
+- Kategori (VVIP, VIP, Santri, Umum)
+- Latitude
+- Longitude
+- Kapasitas
+- Aktivasi (Aktif untuk dialokasikan, nonaktifkan)
+- RiwayatAlokasiDaerah (DaerahID)
+
+Parkir:
+- ParkirID
+- NamaTempat
+- Alamat
+- Latitude
+- Longitude
+- Status (Masih tersedia, Penuh)
+- Kategori (VVIP, VIP, Santri & Umum)
+
+PengambilanMakanan:
+- RombonganID
+- JadwalMakanID
+- WaktuPengambilan
+- Status (tersedia / belum diambil, sudah diambil)
+
+JadwalMakan:
+- JadwalMakanID
+- JudulJadwal
+- Waktu
+
+Daerah:
+DaerahID
+Nama
+
+Stack:
+- Webserver : Flask
+- Database : SQLite
+- Libraries : 
+
+Login : NoHP, Peran -> Akun anda sedang dipakai orang lain saat ini, hubungi admin / maaf no hp tidak ada / maaf peran tidak sesuai / berhasil
+Daftar/Edit : Nama, NoHP, Peran, untuk PD & KR Pilih daerah / usul daerah baru (nulis) -> Ok, if edited reset activation
+View: Nama, NoHP, Peran, Status (teraktivasi, belum teraktivasi (hubungo admin), ditolak (keluar & buat akun lg))
