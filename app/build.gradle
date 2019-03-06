@@ -38,15 +38,17 @@ dependencies {
     implementation "com.mikepenz:iconics-core:3.2.1"
     implementation "com.mikepenz:iconics-views:3.2.1"
     implementation 'com.mikepenz:community-material-typeface:2.7.94.1@aar'
-    implementation 'com.mikepenz:fastadapter:3.3.1'
-    implementation 'com.mikepenz:fastadapter-commons:3.3.1'
-    implementation 'com.mikepenz:fastadapter-extensions-expandable:3.3.1'
-    implementation 'com.mikepenz:fastadapter-extensions:3.3.1'
-    implementation "com.mikepenz:itemanimators:1.1.0"
-    implementation "com.mikepenz:materialdrawer:6.1.2"
+    implementation 'com.mikepenz:fastadapter:3.2.9'
+    implementation 'com.mikepenz:fastadapter-commons:3.2.9'
+    implementation 'com.mikepenz:fastadapter-extensions-expandable:3.2.9'
+    implementation 'com.mikepenz:fastadapter-extensions:3.2.9'
+    implementation "com.mikepenz:itemanimators:1.0.2"
+    implementation "com.mikepenz:materialdrawer:6.0.9"
     implementation 'com.github.f0ris.sweetalert:library:1.5.6'
     implementation 'org.parceler:parceler-api:1.1.12'
     annotationProcessor 'org.parceler:parceler:1.1.12'
-
+    implementation 'com.afollestad.material-dialogs:input:2.0.3'
+    implementation 'com.google.android.gms:play-services-maps:16.1.0'
+    implementation 'com.google.maps.android:android-maps-utils:0.5'
 
 }

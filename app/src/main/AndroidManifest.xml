@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="id.alkhidmah.maktabal_khidmah">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,12 +14,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DataAkunActivity"></activity>
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".InfoActivity"/>
+        <activity android:name=".view_parkir.ListPenghuniParkirActivity" />
+        <activity android:name=".view_makan.ListPengambilanMakanActivity" />
+        <activity android:name=".view_makan.DataWaktuMakanActivity" />
+        <activity android:name=".view_maktab.ListPenghuniMaktabActivity" />
+        <activity android:name=".view_menu.ListStatusParkirActivity" />
+        <activity android:name=".view_menu.ListStatusMakananActivity" />
+        <activity android:name=".view_menu.ListStatusMaktabActivity" />
+        <activity android:name=".view_menu.ListStatusRombonganActivity" />
+        <activity android:name=".view_menu.ListAkunActivity" />
+        <activity android:name=".view_rombongan.DataRombonganActivity" />
+        <activity android:name=".view_parkir.DataParkirActivity" />
+        <activity android:name=".view_maktab.DataMaktabActivity" />
+        <activity android:name=".view_menu.DashboardActivity" />
+        <activity android:name=".view_util.ListDaerahActivity" />
+        <activity android:name=".view_util.MapViewActivity" />
+        <activity android:name=".view_akun.DataAkunActivity" />
+        <activity android:name=".view_akun.LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

@@ -10,10 +10,11 @@ Pengguna:
 6- Pengurus Parkir (PP)
 
 Fitur Admin (A):
-- Dashboard : 2 Pengurus belum diaktivasi, 2 KR belum diaktivasi, 2 Rombongan datanya belum lengkap, 2 Rombongan belum dapat maktab, 2 Rombongan belum dapat tempat parkir, total seluruh rombongan, total seluruh jamaah, total akun PD/PDU/PM/PP, total maktab/tempat parkir/jam makan
+- Dashboard : 2 Pengurus belum diaktivasi, 2 KR belum diaktivasi, 2 Rombongan datanya belum lengkap, 2 Rombongan belum dapat maktab, 2 Rombongan belum dapat tempat parkir, total seluruh rombongan, total seluruh jamaah, total rombongan per kategori, total akun PD/PDU/PM/PP, total maktab/tempat parkir/jam makan,  3/4 tempat parkir belum penuh
 - Melihat list akun KR, PD, PDU, PM, PP (lvl 1 list akun)
 - Melihat & Mengaktivasi akun KR, PD, PDU, PM, PP (Aktivasi, Deaktivasi, Hapus) (lvl 2 data akun)
 Akses sama kaya PD tp seluruh rombongan, KR, PP, PDU, PM
+
 - Melihat status kelengkapan data, alokasi maktab, alokasi parkir, kategori, seluruh rombongan (lvl 1 list rombongan)
 - Mengunggah/Mengedit data rombonganya (lvl 2 data rombongan edit)
 - Minta alokasi maktab (data terkait maktab lengkap) (lvl 3)
@@ -26,10 +27,24 @@ Akses sama kaya PD tp seluruh rombongan, KR, PP, PDU, PM
 - Melihat list PM  (lvl 5 list akun)
 - Melihat detail lokasi parkir yang teralokasi rombongannya (lvl 4 data parkir - view)
 - Melihat list PP (lvl 5 list akun)
+
 - Melihat list maktab dan status terisi 2/10, kategori (lvl 1 list maktab)
-- Menambah/Mengedit/Menghapus data maktab2 (lvl 2 data maktab edit)
+- Menambah data maktab2 (lvl 2 data maktab edit)
+- Melihat detail data maktab2, dan edit ato hapus (lvl 2 data maktab edit)
 - Melihat/Menghapus/Menambah list rombongan status jumlah (lvl 3 list penghuni)
 - Melihat detail data rombongan yang menempati maktab (lvl 4 data rombongan view)
+
+- Melihat list waktu makan dan status 2/10 jamaah sudah mengambil makan siang, kategori (lvl 1 list waktu makan)
+- Menambah data waktu makan (lvl 2 data waktu makan edit)
+- Melihat detail data waktu makan, dan edit, ato hapus (lvl 2 data waktu makan edit)
+- Melihat & mengedit list rombongan dengan jumlah jamaah, kategori & checklist sudah mengambil belum (lvl 3 list pengambilan makan)
+- Melihat detail data rombongan yang mengambil makanan (lvl 4 data rombongan view)
+
+- Melihat list tempat parkir dan status penuh/tidak, dan jumlah kendaraan, kategori (lvl 1 list tempat parkir)
+- Menambah data tempat parkir (lvl 2 data tempat parkir edit)
+- Melihat detail data tempat parkir, dan edit, ato hapus, diisi kendaraan jenis apa dan brp, dan bisa ubah status (lvl 2 data tempat parkir edit)
+- Melihat/Menghapus/Menambah list rombongan di tempat parkir itu (lvl 3 list yang parkir)
+- Melihat detail data rombongan yang menempati parkiran (lvl 3 data rombongan view)
 
 
 
@@ -124,7 +139,7 @@ Akun:
 - NamaAkun (varchar)
 - NoHP (varchar)
 - Peran (number)
-- DaerahID (null selain PD, KR, J)
+- DaerahID (null selain PD, KR)
 - RombonganID (null selain J)
 - Aktivasi (always 1 selain PD, PDU, PM, PP)
 - latitude
