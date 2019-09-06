@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".view_util.ListDaerahActivity">
+    tools:context=".view_util.ListDaerahActivity"
+    android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+    <include
+        layout="@layout/toolbar" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:id="@+id/recycler_daerah"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    <com.leinardi.android.speeddial.SpeedDialView
+        android:id="@+id/fab_usul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:sdMainFabClosedBackgroundColor="@color/my_app_secondary_color"
+        app:sdMainFabClosedSrc="@drawable/ic_add" />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

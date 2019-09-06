@@ -12,4 +12,6 @@ public class Maktab {
     public boolean aktif;
     public int riwayatdaerah;
 
+    public String riwayatdaerah_nama;
+
 }

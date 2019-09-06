@@ -15,4 +15,8 @@ public class Rombongan {
     public int alokasimaktab;
     public int alokasiparkir;
 
+    public String alokasimaktab_nama;
+    public String alokasiparkir_nama;
+    public String koordinator_nama;
+
 }

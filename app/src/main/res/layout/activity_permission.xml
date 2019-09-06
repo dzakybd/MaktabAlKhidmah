@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_util.PermissionActivity">
+
+    <TextView
+        android:text="Beri izin akses aplikasi"
+        style="?textAppearanceHeadline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/Content"
+        android:layout_margin="@dimen/tiny_margin"
+        android:text="aplikasi ini membutuhkan izin berikut:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_margin="@dimen/medium_margin"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:clickable="false"
+            app:icon="@drawable/ic_place"
+            style="@style/LightButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPS &amp; Navigasi"
+            />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_izin"
+        android:onClick="izinclick"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Izinkan"/>
+
+
+</LinearLayout>

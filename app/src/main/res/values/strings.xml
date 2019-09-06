@@ -1,3 +1,62 @@
 <resources>
-    <string name="app_name">Maktab Al-Khidmah</string>
+    <string name="app_name">Al-Khidmah Mobile</string>
+    <string name="all_permissions_denied_feedback">Mohon pilih "Allow" agar aplikasi berjalan lancar</string>
+    <string name="permission_rationale_title">Kita butuh izin ini</string>
+    <string name="permission_rationale_message">Izin ini digunakan agar aplikasi berjalan lancar</string>
+
+
+    <string name="cat_textfield_title">Text Field</string>
+    <string name="cat_textfield_filled_demo_title">Filled Text Field Demo</string>
+    <string name="cat_textfield_outline_demo_title">Outline Text Field Demo</string>
+    <string name="cat_textfield_legacy_demo_title">Legacy Text Field Demo</string>
+    <string name="cat_textfield_description">
+    Text fields allow users to input, edit, and select text. Text fields typically reside in forms
+    but can appear in other places, like dialog boxes and search.
+  </string>
+
+    <string name="cat_textfield_filled_helper_text">Filled text field</string>
+    <string name="cat_textfield_filled_dense_helper_text">Dense filled text field</string>
+    <string name="cat_textfield_filled_dense_password_helper_text">
+    Dense filled password text field
+  </string>
+    <string name="cat_textfield_filled_start_icon_helper_text">Filled start icon text field</string>
+    <string name="cat_textfield_filled_clear_button_helper_text">Filled clear button text field</string>
+    <string name="cat_textfield_filled_custom_end_icon_helper_text">Filled custom end icon text field</string>
+    <string name="cat_textfield_outline_helper_text">Outline text field</string>
+    <string name="cat_textfield_outline_dense_helper_text">Dense outline text field</string>
+    <string name="cat_textfield_outline_start_icon_helper_text">Outline start icon text field</string>
+    <string name="cat_textfield_outline_clear_button_helper_text">Outline clear button text field</string>
+    <string name="cat_textfield_outline_custom_end_icon_helper_text">Outline custom end icon text field</string>
+    <string name="cat_textfield_custom_end_icon_content_description">Custom end icon</string>
+
+    <string name="cat_textfield_customize_section_title">Customize text fields</string>
+    <string name="cat_textfield_customize_section_description">
+    Enter values below to customize the text fields.
+  </string>
+    <string name="cat_textfield_label">Label</string>
+    <string name="cat_textfield_password">Password</string>
+    <string name="cat_textfield_error">Error</string>
+    <string name="cat_textfield_customize_label_text">Label text</string>
+    <string name="cat_textfield_customize_error_text">Error text</string>
+    <string name="cat_textfield_customize_helper_text">Helper text</string>
+    <string name="cat_textfield_customize_color">Change color</string>
+    <string name="cat_textfield_customize_counter_text">Character counter max</string>
+    <string name="cat_textfield_update_label_text">Update label</string>
+    <string name="cat_textfield_update_error_text">Update error</string>
+    <string name="cat_textfield_update_helper_text">Update helper</string>
+    <string name="cat_textfield_update_counter_text">Update character counter</string>
+    <string name="cat_textfield_null_input_error_text">Enter a value</string>
+    <string name="cat_textfield_show_error_text">Show error</string>
+    <string name="cat_textfield_hide_error_text">Hide error</string>
+    <string name="cat_textfield_disable">Disable</string>
+    <string name="cat_textfield_enable">Enable</string>
+
+    <string name="app_desc">Aplikasi ini bertujuan untuk membantu pengelolan penyelenggaraan majlis dzikir Al-Khidmah, dan sebagai sarana informasi terpadu bagi Jamaah Al-Khidmah.</string>
+    <string name="fitur_rombongan_desc">Aplikasi ini membantu Koordinator Rombongan dan Pengurus Daerah dalam pengelolaan rombongan, mulai dari pendaftaran rombongan, hingga pendataan jamaah.</string>
+    <string name="fitur_maktab_desc">Aplikasi ini membantu Pengurus Maktab dalam pengelolaan data maktab dan pengalokasiaan maktab untuk rombongan yang akan hadir.</string>
+    <string name="fitur_dapur_desc">Aplikasi ini membantu Pengurus Dapur umum dalam memperkirakan kebutuhan konsumsi dan mendata rombongan yang belum/sudah mengambil konsumsi.</string>
+    <string name="fitur_parkir_desc">Aplikasi ini membantu Pengurus Parkir dalam pengalokasian tempat parkir dan media untuk melihat informasi kendaraan rombongan.</string>
+    <string name="fitur_lain_desc">Fitur lain seperti Informasi jadwal majlis dari seluruh daerah, sosial media khusus Al-Khidmah, dll.</string>
+    <string name="admin_contact">6285712001670</string>
+
 </resources>

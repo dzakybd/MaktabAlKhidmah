@@ -1,9 +1,218 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".view_akun.DataAkunActivity">
+    tools:context=".view_akun.DataAkunActivity"
+    android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+    <include
+        layout="@layout/toolbar" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_nama"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_full"
+                android:layout_marginRight="@dimen/margin_full"
+                android:hint="Nama"
+                app:errorEnabled="true"
+                app:endIconMode="clear_text">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:inputType="textPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_nohp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_full"
+                android:layout_marginRight="@dimen/margin_full"
+                android:hint="No HP"
+                app:errorEnabled="true"
+                app:endIconMode="clear_text">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:inputType="phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_password"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_full"
+                android:layout_marginRight="@dimen/margin_full"
+                android:hint="Password"
+                app:errorEnabled="true"
+                app:endIconMode="password_toggle">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:inputType="textPassword"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:layout_marginLeft="@dimen/margin_full"
+                android:layout_marginRight="@dimen/margin_full"
+                android:layout_marginTop="10dp"
+                android:text="Peran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:layout_marginLeft="@dimen/margin_full"
+                android:layout_marginRight="@dimen/margin_full"
+                android:id="@+id/spinner_peran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_daerah"
+                android:onClick="pilihdaerah"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_full"
+                android:layout_marginRight="@dimen/margin_full"
+                android:hint="Daerah"
+                app:helperText="Klik teks untuk memilih daerah"
+                app:helperTextEnabled="true"
+                app:errorEnabled="true"
+                app:endIconMode="clear_text">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:enabled="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_keterangan"
+                android:onClick="pilihdaerah"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_full"
+                android:layout_marginRight="@dimen/margin_full"
+                android:hint="Deskripsi tugas"
+                app:errorEnabled="true"
+                app:endIconMode="clear_text">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/status_layout"
+                android:layout_marginLeft="@dimen/margin_full"
+                android:layout_marginRight="@dimen/margin_full"
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="2"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:text="Aktivasi oleh Admin :"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:gravity="right"
+                    android:id="@+id/status"
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    android:textColor="@android:color/holo_green_light"
+                    android:layout_weight="1"
+                    android:text="Aktif"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_waiting"
+                android:textAppearance="?attr/textAppearanceSubtitle2"
+                android:layout_gravity="center"
+                android:text="Mohon menungu aktivasi dari Admin/Pengurus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:id="@+id/switch_aktivasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_full"
+                android:layout_marginRight="@dimen/margin_full"
+                android:checked="false"
+                android:text="Aktivasi"/>
+
+
+
+            <com.google.android.material.button.MaterialButton
+                android:onClick="lihatlokasi"
+                android:layout_gravity="center"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_lokasi"
+                android:text="Lihat posisi di peta"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:onClick="simpanclick"
+                android:layout_gravity="center"
+                android:id="@+id/button_simpan"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Simpan"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:onClick="hapusclick"
+                android:layout_gravity="center"
+                android:id="@+id/button_hapus"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Hapus akun"/>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

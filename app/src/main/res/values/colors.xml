@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="my_app_primary_color">#115173</color>
+    <color name="colorPrimaryLight">#497da2</color>
+    <color name="my_app_primary_variant_color">#002947</color>
+    <color name="my_app_secondary_color">#ff8f00</color>
+    <color name="colorSecondaryLight">#ffc046</color>
+    <color name="my_app_secondary_variant_color">#c56000</color>
+    <color name="my_app_color_on_primary">@color/white</color>
+    <color name="my_app_color_on_secondary">@color/black</color>
+    <color name="my_app_background_color">@color/white</color>
+    <color name="my_app_color_on_background">@color/black</color>
+    <color name="my_app_error_color">#DD3217</color>
+    <color name="my_app_color_on_error">@color/white</color>
+    <color name="my_app_color_on_surface">@color/black</color>
+    <color name="my_app_surface_color">@color/white</color>
+    <color name="status_bar_color">#F5F5F5</color>
+    <color name="scrim_color">#52000000</color>
+    <color name="colorTextPrimary">@color/white</color>
+    <color name="colorTextSecondary">@color/black</color>
+
+
+    <color name="tab_icon_active_color">@color/my_app_secondary_color</color>
+    <color name="tab_icon_nonactive_color">@color/toolbar_icon_color</color>
+    <color name="tab_text_color">@color/black</color>
+
+    <color name="toolbar_title_color">#212121</color>
+    <color name="toolbar_icon_color">#757575</color>
+    <color name="fab_icon_color">#211200</color>
+
+    <color name="title_text_color">@color/black</color>
+    <color name="subtitle_text_color">@color/toolbar_title_color</color>
+    <color name="content_text_color">#666666</color>
+
+    <color name="button_text_color">@color/my_app_primary_color</color>
+    <color name="button_light_fill_color">#E4E4E4</color>
+    <color name="button_light_text_color">@color/toolbar_title_color</color>
+
+
 </resources>
+<!--https://material.io/tools/color/#!/?view.left=1&view.right=1&secondary.color=ffd700&primary.color=115173-->
+<!--https://colorhunt.co/palette/141100-->

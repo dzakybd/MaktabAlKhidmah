@@ -1,6 +1,6 @@
 package id.alkhidmah.maktabal_khidmah.view_menu;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import id.alkhidmah.maktabal_khidmah.R;
 public class ListStatusMakananActivity extends AppCompatActivity {
